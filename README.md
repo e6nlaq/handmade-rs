@@ -10,20 +10,19 @@ It automatically finds the next available test case number in your test director
 
 ## Installation
 
-Build the project using Cargo:
+Install the project using Cargo:
 
 ```sh
-cargo build --release
+cargo install --git https://github.com/e6nlaq/handmade-rs.git
 ```
 
-The executable will be located at `target/release/handmade`.
 
 ## Usage
 
 Run the executable from your project's root directory.
 
 ```sh
-./target/release/handmade
+handmade
 ```
 
 The tool will guide you through creating a new test case. It will first ask for the input line by line. To finish the input, enter an empty line. After that, it will ask for the output in the same way.
