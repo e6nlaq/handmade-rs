@@ -1,5 +1,7 @@
 # handmade-rs
 
+![demo](https://github.com/user-attachments/assets/0939cfa8-5c78-4358-ad13-c7f956f6d72e)
+
 `handmade-rs` is a command-line tool to interactively create handmade test cases for competitive programming, designed to work smoothly with environments like `online-judge-tools`.
 
 ## Description
