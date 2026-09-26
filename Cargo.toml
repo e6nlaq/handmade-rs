@@ -1,6 +1,6 @@
 [package]
 name = "handmade"
-version = "1.0.0"
+version = "1.0.1"
 description = "Create a handmade test for oj"
 authors = ["e6nlaq"]
 edition = "2024"
