@@ -21,6 +21,8 @@ use std::fs;
 use std::path;
 
 fn read_dir(path: &str) -> Result<Vec<path::PathBuf>, Box<dyn Error>> {
+    fs::create_dir_all(path)?;
+
     let dir = fs::read_dir(path)?;
     let mut files: Vec<path::PathBuf> = Vec::new();
     for item in dir.into_iter() {
